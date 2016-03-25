@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+    font-family: 'Noto Sans Japanese', serif;
+}*/
+/* all */
+body{
+    /*background-color: black;*/
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* header */
+.container{
+    padding: 10px 160px;
+    font-family: "honoka mincho";
+}
+.h-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.head-bar {
+    background: #1D1C1C;
+    padding: 0;
+    border-bottom: 2px solid #333333;
+    opacity: 0.8;
+}
+.utility-nav{
+    float: left;
+    margin-left: 90px;
+    font-size: 13px;
+}
+.utility-nav > li{
+    display: inline;
+    border-left: 1px solid #000;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.utility-nav > li > a{
+    color: #BDBDBD;
+}
+.utility-nav > li > a:hover{
+    opacity: 0.5;
+}
+.gloval-nav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background: #fff;
+    /*background: #000;
+    color: #fff;*/
+    opacity: 0.95;
+}
+.nav > li{
+    display: inline;
+    padding: 0 45px;
+}
+.nav > li > a{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.nav > li > a:hover{
+    color: orange;
+    font-weight: bold;
+}
+#for-girl{
+    background-image: url(../img/myMorning.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+.layerTransparent{
+    background-color: rgba(255,255,255,0.5);
+}
+.head-block{
+    margin-top: 130px;
+}
+.brand-logo{
+    color: #ffa2c7;
+    /*color: #E571A0;*/
+    font-size: 82px;
+    padding: 50px 0 15px;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+}
+#mym{
+    display: none;
+}
+.brand-message{
+    padding:0 0 10px 0;
+}
+.brand-message > i > p{
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+#sun{
+    color: #ffe4b3;
+}
+/* page-body */
+.active {
+    padding: 0;
+    margin: 32px 0 29px;
+}
+.content-wrap{
+    height: 150px;
+}
+.content-list {
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+.content-list > li > a > .btn{
+    border: 1px solid #AA9A00;
+    width: 170px;
+    float: left;
+    padding:20px 0px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.content-list > li > a > .btnR{
+    border: 1px solid pink;
+    color: #FF99CC;
+    width: 170px;
+    float: left;
+    padding:20px 0px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.content-list > li > a > .btn:hover{
+    border: 1px solid orange;
+}
+.content-list > li > a > .btnR:hover{
+    border: 1px solid orange;
+    color: orange;
+}
+.content-list > li >a{
+    color: #AA9A00;
+    font-size: 16px;
+}
+.content-list > li >a:hover{
+    color: orange;
+}
+/* discriptions */
+.discriptions h1{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+.Emessage{
+    font-family: 'Italianno', cursive;
+}
+
+.discriptions h2{
+    color: black;
+}
+#entry{
+    max-width: 550px;
+    padding: 60px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 21px auto 0 auto;
+    position: relative;
+    border: 1px solid #ddd;
+}
+.top__copy {
+    font-size: 20px;
+    margin-bottom: 21px;
+    line-height: 26px;
+}
+.aws{
+    font-size: 22px;
+}
+
+.entry-form__input {
+    width: 100%;
+    -webkit-appearance: none;
+    /*border: 1px solid #ccc;*/
+    border: none;
+    border-bottom: 1px #A2A2A2 dotted;
+    margin: 0 0 15px 0;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 100;
+}
+.entry-form__btn {
+    width: 100%;
+    -webkit-appearance: none;
+    border: none;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #C11111;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 16px;
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+    cursor: pointer;
+}
+input
+{
+    outline: none;
+}
+
+.entry-form__btn:hover {
+    opacity: 0.4;
+}
+
+/* footer */
+.footer-top-area{
+    width: 100%;
+    margin: 100px auto 0;
+    text-align: center;
+    background-color: #333333;
+}
+.footer-top-area > ul{
+    padding: 40px 0 40px;
+}
+.footer-top-area > ul > li{
+    display: inline;
+    margin-left: 30px;
+}
+.footer-top-area > ul > li > a{
+    font-size: 11px;
+    color: #999999;
+}
+.footer-top-area > ul > li > a:hover{
+    opacity: 0.5;
+}
+.footer-bottom-area{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11px;
+    color: #999999;
+    padding: 20px 0 30px;
+    background-color: #333333;
+}/*
+@media all and (max-width: 1200px){
+    .head-bar{
+        display: none;
+    }
+    .container{
+        padding: 10px 10px;
+    }
+    .nav{
+        display: none;
+    }
+    .content-list > li > a > .btn{
+        border: 1px solid #AA9A00;
+        width: 99%;
+        float: left;
+        padding:20px 0px;
+        margin-bottom: 30px;
+    }
+    .content-list > li > a > .btn:hover{
+        border: 1px solid orange;
+    }
+    .content-list > li >a{
+        color: #AA9A00;
+        font-size: 25px;
+    }
+    .content-list > li >a:hover{
+        color: orange;
+    }
+    .brand-logo{
+        color: pink;
+        font-size: 100px;
+        padding: 70px 0 15px;
+        text-align: center;
+        font-family: 'Italianno', cursive;
+    }
+    .brand-message > i > p{
+        text-align: center;
+        font-size: 20px;
+        color: #999999;
+        font-style: italic;
+    }
+    .footer-top-area{
+        width: 75%;
+        margin: 300px auto 0;
+        border-bottom: 1px dotted #000;
+        text-align: center;
+    }
+    span{
+        display: none;
+    }
+    .for-girl{
+        background-image: url(myMorning.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        /*filter:alpha(opacity=50);
+        opacity: 0.4;*/
+    }/*
+    .footer-top-area{
+        width: 100%;
+        border-bottom: 1px dotted #000;
+        text-align: center;
+    }
+} */
